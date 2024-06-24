@@ -417,12 +417,14 @@ import { ref } from 'vue';
     .footer-action_big .footer-action__text-title {
         margin-bottom: 6px;
         font-size: 18px;
+        font-weight: 600;
         line-height: 22px;
         color: #FFA500;
     }
 
     @media (min-width: 769px) {
         .footer-action_big .footer-action__text-title {
+            font-weight: 600;
             font-size: 14px;
             line-height: 17px;
         }
